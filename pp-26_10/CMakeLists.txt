@@ -3,7 +3,7 @@
 #
 
 # Dodaj źródło do pliku wykonywalnego tego projektu.
-add_executable (pp-26_10 "pp-26_10.cpp" "pp-26_10.h")
+add_executable (pp-26_10 "pp-26_10.cpp" )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET pp-26_10 PROPERTY CXX_STANDARD 20)
